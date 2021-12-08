@@ -34,7 +34,7 @@ This can be done via ***PowerShell*** command in Windows. Run PowerShell and exe
 Please, get appropriate version of the .jar package.
 
 ```javascript
-Invoke-WebRequest -Uri https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.17/swagger-codegen-cli-2.4.17.jar -OutFile swagger-codegen-cli.jar
+Invoke-WebRequest -Uri https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.24/swagger-codegen-cli-2.4.24.jar -OutFile swagger-codegen-cli.jar
 ```
 
 3. Assume ***swagger-codegen-cli.jar*** is already downloaded into root folder of your working copy.
@@ -47,7 +47,7 @@ python-generate.bat
 4. Install generated ***demolib*** python library
 
 ```javascript
-pip install demolib
+pip install ./demolib
 ```
 
 5. Script ***democli.py*** can be imported to appropriate IDE that supports Python development.
