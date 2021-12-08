@@ -1,1 +1,1 @@
-java -jar swagger-codegen-cli.jar generate -i https://demo.jotne.com//EDMtruePLM/v2/api-docs -l python -o demolib
+java -jar swagger-codegen-cli.jar generate -i http://localhost:8080/EDMtruePLM/v2/api-docs -l python -o demolib
